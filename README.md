@@ -1,4 +1,4 @@
-# DriveBot – RAG based Chatbot for Renault Triber Car
+# DriveBot: AI Assistant for Renault Triber (RAG-based Chatbot)
 
 DriveBot is an intelligent chatbot that answers natural language questions from the Renault Triber car manual using a Retrieval-Augmented Generation (RAG) pipeline. It combines semantic search using FAISS with a lightweight HuggingFace transformer model to simulate an AI assistant for vehicle documentation.
 
