@@ -6,6 +6,22 @@ from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.prompts import PromptTemplate
 
+import os
+import streamlit as st
+
+st.write("Current working directory:", os.getcwd())
+
+if os.path.exists("vectorstore/index.faiss"):
+    st.success("✅ index.faiss found")
+else:
+    st.error("❌ index.faiss not found")
+
+if os.path.exists("vectorstore/index.pkl"):
+    st.success("✅ index.pkl found")
+else:
+    st.error("❌ index.pkl not found")
+
+
 MODEL_NAME = "google/flan-t5-base"
 VECTORSTORE_PATH = "vectorstore" 
 
