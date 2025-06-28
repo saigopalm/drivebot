@@ -7,7 +7,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.prompts import PromptTemplate
 
 MODEL_NAME = "google/flan-t5-base"
-VECTORSTORE_PATH = "vectorstore" 
+VECTORSTORE_PATH = "drivebot/vectorstore" 
 
 # loading embedding model and vectorstore
 @st.cache_resource
