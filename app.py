@@ -23,7 +23,7 @@ else:
 
 
 MODEL_NAME = "google/flan-t5-base"
-VECTORSTORE_PATH = "/mount/src/drivebot/vectorstore" 
+VECTORSTORE_PATH = "vectorstore/db_faiss" 
 
 # loading embedding model and vectorstore
 @st.cache_resource
